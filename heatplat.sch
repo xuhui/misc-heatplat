@@ -1,0 +1,163 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5D2D5159
+P 2050 1850
+F 0 "J1" H 2107 2167 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 2107 2076 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2100 1810 50  0001 C CNN
+F 3 "~" H 2100 1810 50  0001 C CNN
+	1    2050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D2D6F48
+P 3250 1450
+F 0 "R1" V 3043 1450 50  0000 C CNN
+F 1 "R" V 3134 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 3180 1450 50  0001 C CNN
+F 3 "~" H 3250 1450 50  0001 C CNN
+	1    3250 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D2D7F37
+P 3750 1450
+F 0 "R2" V 3543 1450 50  0000 C CNN
+F 1 "R" V 3634 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 3680 1450 50  0001 C CNN
+F 3 "~" H 3750 1450 50  0001 C CNN
+	1    3750 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D2D82CA
+P 4250 1450
+F 0 "R3" V 4043 1450 50  0000 C CNN
+F 1 "R" V 4134 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 4180 1450 50  0001 C CNN
+F 3 "~" H 4250 1450 50  0001 C CNN
+	1    4250 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D2D8573
+P 4700 1450
+F 0 "R4" V 4493 1450 50  0000 C CNN
+F 1 "R" V 4584 1450 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 4630 1450 50  0001 C CNN
+F 3 "~" H 4700 1450 50  0001 C CNN
+	1    4700 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5D2D8780
+P 3250 1700
+F 0 "R5" V 3043 1700 50  0000 C CNN
+F 1 "R" V 3134 1700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 3180 1700 50  0001 C CNN
+F 3 "~" H 3250 1700 50  0001 C CNN
+	1    3250 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5D2D898F
+P 3750 1700
+F 0 "R6" V 3543 1700 50  0000 C CNN
+F 1 "R" V 3634 1700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 3680 1700 50  0001 C CNN
+F 3 "~" H 3750 1700 50  0001 C CNN
+	1    3750 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5D2D8DDE
+P 4250 1700
+F 0 "R7" V 4043 1700 50  0000 C CNN
+F 1 "R" V 4134 1700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 4180 1700 50  0001 C CNN
+F 3 "~" H 4250 1700 50  0001 C CNN
+	1    4250 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5D2D905D
+P 4700 1700
+F 0 "R8" V 4493 1700 50  0000 C CNN
+F 1 "R" V 4584 1700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 4630 1700 50  0001 C CNN
+F 3 "~" H 4700 1700 50  0001 C CNN
+	1    4700 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5D2D93C9
+P 5150 1700
+F 0 "R9" V 4943 1700 50  0000 C CNN
+F 1 "R" V 5034 1700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 5080 1700 50  0001 C CNN
+F 3 "~" H 5150 1700 50  0001 C CNN
+	1    5150 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 1450 3600 1450
+Wire Wire Line
+	3900 1450 4100 1450
+Wire Wire Line
+	4400 1450 4550 1450
+Wire Wire Line
+	4850 1450 5500 1450
+Wire Wire Line
+	5500 1450 5500 1700
+Wire Wire Line
+	5500 1700 5300 1700
+Wire Wire Line
+	5000 1700 4850 1700
+Wire Wire Line
+	4550 1700 4400 1700
+Wire Wire Line
+	4100 1700 3900 1700
+Wire Wire Line
+	3600 1700 3400 1700
+Wire Wire Line
+	3100 1700 2950 1700
+Wire Wire Line
+	2950 1700 2950 1450
+Wire Wire Line
+	2950 1450 3100 1450
+Wire Wire Line
+	2350 1750 2950 1750
+Wire Wire Line
+	2950 1750 2950 1700
+Connection ~ 2950 1700
+Wire Wire Line
+	5500 1950 5500 1700
+Connection ~ 5500 1700
+Wire Wire Line
+	2350 1950 5500 1950
+NoConn ~ 2350 1850
+$EndSCHEMATC
